@@ -34,8 +34,13 @@ namespace LiberisDemo.Steps
         public void ThenVerifyUserIsLandedOnPartnerPageWithAllTypesOfPartnersDisplayed()
         {
             objLiberisModule.VerifyPartnerPage();
-            objLiberisModule.VerifyPartnerSelection();
+            
         }
 
+        [Then(@"User verifies the message if no partner is selected")]
+        public void ThenUserVerifiesTheMessageIfNoPartnerIsSelected()
+        {
+            objLiberisModule.VerifyPartnerSelection();
+        }
     }
 }

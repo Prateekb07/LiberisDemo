@@ -101,6 +101,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 7
  testRunner.Then("Verify user is landed on partner page with all types of partners displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
+#line 8
+ testRunner.And("User verifies the message if no partner is selected", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
             }
             this.ScenarioCleanup();
         }
